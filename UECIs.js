@@ -10,7 +10,7 @@ var UECI = function () {
     
     return {
         justEcho = function() {
-            console.log("echo");
+            console.log("echo2");
         }
     }
 }();
