@@ -48,6 +48,6 @@ var UECI = function () {
                     alert(res.elementos[0].Value);
                 }
             }
-        },
+        }
     }
 }();
