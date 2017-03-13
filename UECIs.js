@@ -1,3 +1,3 @@
 var UECI = function () {
-   console.log("echo");
+   return justEcho = function() { console.log("echo"); }
 }();
