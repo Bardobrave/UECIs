@@ -1,3 +1,16 @@
 var UECI = function () {
-   return justEcho = function() { console.log("echo"); }
+    //Estructura interna de datos
+    var INGRESO = {
+        nombreIngreso = "",
+        esIngresoRegular = false,
+        fechaInicioPercepcion = "",
+        fechaFinPercepcion = "",
+        importe = 0
+    }
+    
+    return {
+        justEcho = function() {
+            console.log("echo");
+        }
+    }
 }();
