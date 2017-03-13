@@ -47,7 +47,7 @@ var UECI = function () {
                 if (res.numElementos() > 0) {
                     alert(res.elementos[0].Value);
                 }
-            }
+            });
         }
     }
 }();
