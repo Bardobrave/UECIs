@@ -45,7 +45,7 @@ var UECI = function () {
                 + "AND rownum = 1";
       	    this.datpar.getAlmacen().ejecutarSQL(sqlSolicitante, function(res) {
                 if (res.numElementos() > 0) {
-                    alert(res.elementos[0].Value);
+                    alert(res.get(0).get('PERSON.IDNUMBER||PERSON.CTRLDIGIT'));
                 }
             });
         }
